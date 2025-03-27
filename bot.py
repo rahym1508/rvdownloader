@@ -5,7 +5,7 @@ from aiogram.types import InputFile
 from aiogram.utils import executor
 from yt_dlp import YoutubeDL
 
-TOKEN = os.getenv(7637784257:AAHd2EbPkJ2-KP0Y8SnPuSnTuraXiNTm1TI)  # Get token from Railway environment variables
+TOKEN = os.getenv("BOT_TOKEN")  # Get token from Railway environment variables
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
